@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+section{
+    background: #e6e5e5;
+    display: inline-block;
+    padding: 10px 50px 10px 40px;
+    height: 260px;
+    width: 370px;
+}
+
+h3 { 
+    font-size: 22px;
+    color: #234465;
+    margin: 0;
+    padding: 40px 0 10px 0;
+}
+
+ol {
+    text-align: center;
+    font-size: 22px;
+}
+
+li {
+    text-decoration: none;
+    text-align: left;
+    list-style-type: decimal;
+    margin-bottom: 13px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
