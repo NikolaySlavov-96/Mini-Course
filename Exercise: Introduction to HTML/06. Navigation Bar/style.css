@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    padding: 0;
+    background: #d3d3d3;
+}
+
+ul {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #009900;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    
+}
