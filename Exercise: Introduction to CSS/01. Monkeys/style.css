@@ -23,7 +23,7 @@ article {
     padding-left: 80px;
     text-decoration: none;
     text-align: center;
-    padding-top: 52px;
+    padding-top: 12px;
 }
 
 section:nth-child(1) {
@@ -33,10 +33,14 @@ section:nth-child(1) {
 article p {
     display: block;
     font-weight: 300;
+    text-align: center;
+}
+
+article .paragraph {
     text-align: left;
 }
 
-article img {
+article p img {
     width: 80px;
     height: 80px;
 }
@@ -45,7 +49,7 @@ article h2 {
     font-weight: 500;
 }
 
-article p + p {
+article .author {
     color: #8d4435;
     text-shadow: 18px 18px 2px rgb(90, 89, 89);
     font-style: italic;
@@ -53,10 +57,10 @@ article p + p {
 }
 
 
-section article + article p {
+section article + article p.paragraph {
     padding-bottom: 45px;
 }
 
-section article:last-child p {
+section article:last-child p.paragraph {
 padding-bottom: 28px;
 }
