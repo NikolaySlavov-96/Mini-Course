@@ -12,20 +12,18 @@ ul {
     margin: 0;
     padding: 20px;
     text-align: center;
-    
-    
 }
 
 ul li {
     display: inline-block;
     font-size: 18px;
-    margin-right: 60px;
+    margin-right: 20px;
     
 }
 
 li a {
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
     color: #009900;
 }
 
@@ -33,4 +31,7 @@ li a:hover {
     color: #ffffff;
     background-color: #009900;
     border-radius: 5px;
+    cursor: pointer;
 }
+
+/*add condition in Mouse*/
