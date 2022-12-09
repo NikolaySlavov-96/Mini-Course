@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
 
 body {
     background: #faebc8;
 }
 
 section {
-    height: 500px;
+    height: 530px;
     width: 1000px;
     margin: 60px 220px;
     display: inline-block;
@@ -15,35 +15,48 @@ section {
 }
 
 article {
-    height: 300px;
+    height: 450px;
     width: 210px;
     display: inline-block;
-    text-align: center;
     font-family: "Open Sans";
     font-size: 16px;
     padding-left: 80px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 52px;
 }
 
 section:nth-child(1) {
     padding-left: 70px;
 }
 
-ul {
-    padding: 0;
-}
-
-ul li {
-    text-decoration: none;
-    display: inline-block;
-}
-
-
-ul li p {
+article p {
     display: block;
+    font-weight: 300;
     text-align: left;
 }
 
-ul li img {
+article img {
     width: 80px;
     height: 80px;
+}
+
+article h2 {
+    font-weight: 500;
+}
+
+article p + p {
+    color: #8d4435;
+    text-shadow: 18px 18px 2px rgb(90, 89, 89);
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+section article + article p {
+    padding-bottom: 45px;
+}
+
+section article:last-child p {
+padding-bottom: 28px;
 }
