@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Lato' , sans-serif;
+}
+
+form {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 30%;
+}
+
+section {
+    display: inline-block;
+}
+
+.picture {
+    background-image: linear-gradient(rgba(39, 59, 245, 0.4), rgba(61, 1, 1, 0.6)), url('./Images/peak.jpg');
+    background-size: cover;
+    border-radius: 12px 0 0 12px;
+}
+
+.picture h1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 396px;
+}
+
+.picture p {
+    color: white;
+    margin: 0 30px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.picture p + p {
+    margin-bottom: 30px;
+    margin-left: 148px;
+}
+
+
+.loginForm {
+    border: 3px solid black;
+    width: 260px;
+    margin-left: -3px;
+    border-radius: 0px 12px 12px 0px;
+    padding: 157px 0 18px 76px;
+}
+
+.loginForm label {
+    color: rgb(218, 217, 220);
+    display: block;
+}
+
+.loginForm input {
+    border: transparent;
+    border-bottom: 1px solid #38082A;
+    color: rgb(118, 115, 115);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 190px;
+}
+
+.loginForm input:nth-child(9) {
+    background-color: #38082A;
+    color: rgb(218, 217, 220);
+    border-radius: 5px;
+    padding: 8px 26px;
+    font-size: 16px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.loginForm input:last-child {
+    border: none;
+    background: transparent;
+    color: #38082A;
+    padding: 0px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: auto;
+}
+
